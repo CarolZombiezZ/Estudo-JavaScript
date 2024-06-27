@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional</title>
+</head>
+<body>
+
+
+    <!-- Meu java script vai rodar aqui -->
+    <script>
+
+
+        // do{
+        // var idade=parseInt(prompt("Digite a sua idade: "))
+       
+        
+        // if(idade>=18){
+        //     alert("Você pode votar!")
+        // }
+        // else if(idade >=16 & idade<18){
+        //     alert("não é obrigátorio, mas pode")
+        // }
+        // else if(idade <16){
+        //     alert("Não pode votar")
+        // }
+        // } while("idade==sim")
+
+
+        // var dia=prompt("Digite o valor do dia de semana: ");
+        // switch(dia){
+        //     case "1":
+        //         alert("Domingo")
+        //         break
+        //     case "2":
+        //         alert("Segunda")
+        //         break
+        //     case "3":
+        //         alert("Terça")
+        //         break
+        //     case "4":
+        //         alert("Quarta")
+        //         break
+        //     case "5":
+        //         alert("Quinta")
+        //         break
+        //     case "6":
+        //         alert("Sexta")
+        //         break
+        //     case "7":
+        //         alert("Sábado")
+        //         break
+        //     default:
+        //         alert("Esse dia não existe")
+            
+        // }
+
+        do{
+            alert("Bem vindo ao meu sistema")
+            var nome= prompt ("Digite seu nome")
+            var nota1=parseInt( prompt("Digite a primeira nota"))
+            var nota2=parseInt ( prompt("Digite a segunda nota"))
+            var nota3=parseInt (prompt("Digite a terceira nota"))
+            var nota4=parseInt (prompt("Digite a quarta nota"))
+
+            var media = parseInt((nota1+nota2+nota3+nota4)/4)
+            switch(media){
+                case 4:
+                    alert("Reprovado")
+                    break
+                case 5:
+                    alert("Reprovado")
+                    break
+                case 6:
+                    alert("exame")
+                    break
+                case 7:
+                    alert("exame")
+                    break
+                case 8:
+                    alert("aprovado")
+                    break
+                case 9:
+                    alert("aprovado")
+                    break
+                case 10:
+                    alert("Aprovado")
+                    break
+                default:
+                    alert("Essa nota não é válida")
+                }
+        }while(media=="sim")
+        
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+
+    <div>
+
+        <h1 class="titulo1">Esse é o titulo</h1>
+
+        <div>
+
+            <p class="paragrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Hic, est iure sapiente illum veritatis architecto veniam, 
+                alias magni molestiae consectetur nam excepturi tempora. Modi quo facilis at eaque consequuntur qui!</p>
+
+                <h2 class="subtitulo">Esse é o h2 na primeira posição</h2>
+                <h2 class="subtitulo">Esse é o h2 na segunda posição</h2>
+
+        </div>
+
+
+    </div>
+
+    <script>
+
+        var titulo1=document.querySelector(".titulo1")
+        titulo1.innerHTML="Exercicio 5"
+
+        var paragrafo=document.querySelector(".paragrafo")
+        paragrafo.innerHTML="⁠O chamado da graça há muito tempo perdida fala com todos nós."
+
+        var subtitulo=document.querySelector(".subtitulo")
+        subtitulo.innerHTML="Subtitulo substituto"
+
+        var subtitulo=document.querySelectorAll(".subtitulo")
+        subtitulo[0].innerHTML="Subtitulo substituto"
+        subtitulo[1].innerHTML="outro subtitulo"
+
+
+    </script>
+    
+</body>
+</html>
