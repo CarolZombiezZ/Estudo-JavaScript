@@ -1,2 +1,2 @@
-# EstudoTeste
-Pasta pra estudo do github
+# Estudo JavaScript
+Atividades feitas em aula com JavaScript
